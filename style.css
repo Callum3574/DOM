@@ -1,0 +1,260 @@
+#colorchangehead {
+  display: flex;
+  justify-content: center;
+}
+
+#colorchangehead,
+.colorTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+#colorchanger {
+  border: 4px solid #080808;
+}
+.red {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  line-height: 8px;
+  padding: 12px;
+  border-radius: 0px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px outset rgb(28, 110, 164);
+  display: inline-block;
+  margin-right: 10px;
+}
+.red:hover {
+  background: #1c6ea4;
+}
+.red:active {
+  background: #144e75;
+}
+.green {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  line-height: 8px;
+  padding: 12px;
+  border-radius: 0px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px outset rgb(28, 110, 164);
+  display: inline-block;
+  margin-right: 10px;
+}
+.green:hover {
+  background: #1c6ea4;
+}
+.green:active {
+  background: #144e75;
+}
+
+.yellow {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  line-height: 8px;
+  padding: 12px;
+  border-radius: 0px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px outset rgb(28, 110, 164);
+  display: inline-block;
+  margin-right: 10px;
+}
+.yellow:hover {
+  background: #1c6ea4;
+}
+.yellow:active {
+  background: #144e75;
+}
+.blue {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  line-height: 8px;
+  padding: 12px;
+  border-radius: 0px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px outset rgb(28, 110, 164);
+  display: inline-block;
+  margin-right: 10px;
+}
+.blue:hover {
+  background: #1c6ea4;
+}
+.blue:active {
+  background: #144e75;
+}
+
+.orange {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: -0.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  line-height: 8px;
+  padding: 12px;
+  border-radius: 0px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px outset rgb(28, 110, 164);
+  display: inline-block;
+}
+.orange:hover {
+  background: #1c6ea4;
+}
+.orange:active {
+  background: #144e75;
+}
+
+#changeText {
+  border: 4px solid #000000;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.changeTextTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+}
+
+.changeme {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
